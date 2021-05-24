@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Testing out flask html templates</h1>
+        <h2>
+            {{temp.name}}
+            {{temp.department}}
+        </h2>
+    </head>
+    <body>
+        <button>press me to do nothing</button>
+        <p>
+            <ul>
+                {% for testing in testing %}
+                <li>{{ testing }}</li>
+                {% endfor %}
+            </ul>
+        </p>
+    </body>
+</html>
